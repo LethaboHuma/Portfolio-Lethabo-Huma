@@ -1,6 +1,20 @@
 body {
-  text-align: center;
   font-family: "Poppins", sans-serif;
+  color: rgb(27, 27, 27);
+  background: linear-gradient(
+    180deg,
+    hsla(70, 24%, 70%, 1) 0%,
+    hsla(215, 20%, 67%, 1) 18%,
+    hsla(240, 16%, 92%, 1) 72%
+  );
+  padding: 40px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -11,4 +25,17 @@ h1 {
 p {
   font-weight: 200;
   font-style: normal;
+}
+
+a {
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn-branding {
+  border-radius: 30px;
+  background-color: rgb(27, 27, 27);
+  color: aliceblue;
+
+  padding: 10px;
 }
