@@ -7,9 +7,10 @@ body {
     hsla(215, 20%, 67%, 1) 18%,
     hsla(240, 16%, 92%, 1) 72%
   );
-
   padding: 250px;
   padding-top: 20px;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .navbar-custom {
@@ -29,20 +30,24 @@ body {
   flex-direction: row;
   align-items: center;
 }
-
+.nav-link:hover {
+  border-radius: 30px;
+  background-color: #242d2a;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
+}
 .hero {
   text-align: center;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
 }
 
 h1 {
   font-weight: 600;
   font-style: normal;
+}
+
+h2 {
+  padding: 20px;
 }
 
 p {
@@ -61,15 +66,50 @@ a {
   margin-bottom: 30px;
   text-align: center;
 }
+i {
+  color: #242d2a;
+  font-size: 30px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+i:hover {
+  color: hsla(215, 20%, 67%);
+  border-color: #242d2a;
+}
 .btn-branding {
   border-radius: 30px;
   background-color: #242d2a;
   color: aliceblue;
   border: none;
   padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills-btn {
+  border-radius: 30px;
+  background-color: #242d2a;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+.btn-branding:hover {
+  background-color: hsla(215, 20%, 67%);
+  color: #242d2a;
+  border-color: #242d2a;
+  border-style: solid;
+}
 .About {
   text-align: center;
   padding: 40px;
+}
+
+.contact {
+  text-align: center;
 }
