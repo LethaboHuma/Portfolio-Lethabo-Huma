@@ -134,6 +134,7 @@ i:hover {
 @media (max-width: 800px) {
   body {
     font-size: 0.9em;
+    padding: 20px;
   }
 
   h1 {
@@ -162,5 +163,17 @@ i:hover {
     text-align: left;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .directory {
+    display: flex;
+    margin-top: 50px;
   }
 }
