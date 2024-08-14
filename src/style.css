@@ -42,12 +42,15 @@ body {
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 650;
   font-style: normal;
+  color: rgb(224, 227, 230);
+  font-size: 60px;
 }
 
 h2 {
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 p {
